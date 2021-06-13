@@ -1,4 +1,4 @@
-﻿namespace DotnetDevPack.Entity
+﻿namespace DotnetDevPack.SortUtility
 {
   /// <summary>
   /// 排序信息

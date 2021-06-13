@@ -1,4 +1,4 @@
-﻿namespace DotnetDevPack.Utilities
+﻿namespace DotnetDevPack.SortUtility
 {
   using System;
   using System.Collections.Concurrent;
@@ -6,8 +6,6 @@
   using System.Linq;
   using System.Linq.Expressions;
   using System.Reflection;
-  using DotnetDevPack.Entity;
-
 
   /// <summary>
   /// Linq排序工具

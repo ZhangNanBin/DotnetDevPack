@@ -12,7 +12,7 @@
     <RepositoryUrl>https://github.com/ZhangNanBin/DotnetDevPack</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.0-beta</Version>
+    <Version>1.0.1-beta</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,7 +29,9 @@
     <Folder Include="Utilities\" />
     <Folder Include="JsonConverter\" />
     <Folder Include="Exceptions\" />
-    <Folder Include="Entity\" />
+    <Folder Include="PagingUtility\" />
+    <Folder Include="SortUtility\" />
+    <Folder Include="SortUtility\" />
   </ItemGroup>
 
 </Project>

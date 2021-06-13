@@ -1,4 +1,4 @@
-﻿namespace DotnetDevPack.Entity
+﻿namespace DotnetDevPack.SortUtility
 {
   using System.ComponentModel;
 
