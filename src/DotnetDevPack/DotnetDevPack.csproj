@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Zhang_N_B</Authors>
+    <Description>DotnetDevPack</Description>
+    <PackageDescription>DotnetDevPack</PackageDescription>
+    <PackageProjectUrl>https://github.com/ZhangNanBin/DotnetDevPack</PackageProjectUrl>
+    <PackageId>DotnetDevPack</PackageId>
+    <PackageIcon>Icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/ZhangNanBin/DotnetDevPack</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0-beta</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\assets\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+    <Folder Include="JsonConverter\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Entity\" />
+  </ItemGroup>
+
+</Project>

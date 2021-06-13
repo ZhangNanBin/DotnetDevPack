@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pack", "Pack", "{779707F3-E3F3-45AA-81E5-F7183DE2D4FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{79502061-FEE4-4077-A2EC-11C353133F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetDevPack", "src\DotnetDevPack\DotnetDevPack.csproj", "{99DE4CF8-7FDD-4849-8F94-9B9306B74E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetDevPack.Tests", "tests\DotnetDevPack.Tests\DotnetDevPack.Tests.csproj", "{1F920231-5521-4626-A0C8-63631984916C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99DE4CF8-7FDD-4849-8F94-9B9306B74E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DE4CF8-7FDD-4849-8F94-9B9306B74E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DE4CF8-7FDD-4849-8F94-9B9306B74E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DE4CF8-7FDD-4849-8F94-9B9306B74E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F920231-5521-4626-A0C8-63631984916C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F920231-5521-4626-A0C8-63631984916C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F920231-5521-4626-A0C8-63631984916C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F920231-5521-4626-A0C8-63631984916C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A73287E1-ED14-42E5-AA23-24D3C034F36F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99DE4CF8-7FDD-4849-8F94-9B9306B74E3C} = {779707F3-E3F3-45AA-81E5-F7183DE2D4FF}
+		{1F920231-5521-4626-A0C8-63631984916C} = {79502061-FEE4-4077-A2EC-11C353133F9A}
+	EndGlobalSection
+EndGlobal
