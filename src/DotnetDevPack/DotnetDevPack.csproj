@@ -2,7 +2,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net5.0</TargetFrameworks>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Zhang_N_B</Authors>
     <Description>DotnetDevPack</Description>
     <PackageDescription>DotnetDevPack</PackageDescription>
@@ -12,7 +11,8 @@
     <RepositoryUrl>https://github.com/ZhangNanBin/DotnetDevPack</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.1-beta</Version>
+    <PackageVersion>1.0.2-beta</PackageVersion>
+    <Version>1.0.2-beta</Version>
   </PropertyGroup>
 
   <ItemGroup>
